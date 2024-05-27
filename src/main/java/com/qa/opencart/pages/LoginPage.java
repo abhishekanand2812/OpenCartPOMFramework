@@ -46,7 +46,7 @@ public class LoginPage {
 
 	// 4.create public page actions/methods:
 
-	@Step("getting login page title")
+	@Step("Getting login page title...")
 	public String getLoginPageTitle() {
 		String title = elUtil.waitForTitleIsAndCapture(AppConstants.LOGIN_PAGE_TITLE_VALUE,
 				AppConstants.SHORT_DEFAULT_WAIT);
@@ -116,6 +116,7 @@ public class LoginPage {
 		return new AccountsPage(driver);
 
 	}
+
 	@Step("login with incorrect username {0) and password {1}")
 
 	public boolean doLoginWithWrongCredentials(String usrName, String pwd) {
