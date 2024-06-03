@@ -35,12 +35,12 @@
 		</classes>
 	</test>-->
 
-	<!-- <test name="Search Test">
+	<test name="Search Test">
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="com.qa.opencart.tests.SearchTest" />
 		</classes>
-	</test>-->
+	</test>
 
 
 	<!-- <test name="Product Info Test">
