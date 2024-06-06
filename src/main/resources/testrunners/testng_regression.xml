@@ -26,14 +26,14 @@
 		/> <classes> <class name="com.qa.opencart.tests.RegisterPageTest" /> </classes> 
 		</test> -->
 
-	<!-- <test name="Accounts Page Test">
+	<test name="Accounts Page Test">
 		<parameter name="browser" value="chrome" />
 		<parameter name="browserversion" value="90.0" />
 
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>
-	</test>-->
+	</test>
 
 	<!-- <test name="Search Test">
 		<parameter name="browser" value="firefox" />
