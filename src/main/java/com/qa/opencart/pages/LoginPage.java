@@ -88,6 +88,7 @@ public class LoginPage {
 		return elUtil.getElement(returningCustomerHeader).getText();
 
 	}
+	@Step("checking search field exists or not")
 
 	public boolean IsSearchFieldExist() {
 		return elUtil.getElement(searchField).isDisplayed();
