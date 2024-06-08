@@ -107,7 +107,7 @@ public class LoginPage {
 
 	@Step("login with username {0) and password {1}")
 	public AccountsPage doLogin(String usrName, String pwd) {
-		elUtil.waitForElementVisible(emailId, AppConstants.MEDIUM_DEFAULT_WAIT);
+		elUtil.waitForElementVisible(emailId, AppConstants.LARGE_DEFAULT_WAIT);
 		elUtil.doSendKeys(emailId, usrName);
 		elUtil.doSendKeys(password, pwd);
 		elUtil.doClick(loginBtn);
