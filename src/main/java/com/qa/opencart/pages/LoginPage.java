@@ -77,6 +77,8 @@ public class LoginPage {
 
 	}
 
+	@Step("checking customer header")
+
 	public String newCustomerHeader() {
 		return elUtil.getElement(newCustomerHeader).getText();
 
